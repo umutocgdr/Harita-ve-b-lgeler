@@ -1,0 +1,166 @@
+.every{
+  text-align: center;
+  align-items: center;
+}
+.bilgi{
+  text-align: left;
+}
+.baslik1{
+  font-size: 5rem;
+  text-decoration: none;
+  color: black;
+}
+.baslik2{
+  font-size: xx-large;
+  text-decoration: none;
+  color: black;
+}
+.baslik3{
+  font-size: x-large;
+  text-decoration: none;
+  color: black;
+}
+.marmara{
+  color:#DDA0DD;
+}
+.ege{
+  color:#FFC0CB;
+}
+.akdeniz{
+  color:#E9967A;
+}
+.karadeniz{
+  color:#9ACD32;
+}
+.ic{
+  color:#DEB887;
+}
+.dogu{
+  color:#BC8F8F;
+}
+.guney{
+  color:#CD853F;
+}
+#gaziantep,
+#diyarbakir,
+#sanliurfa,
+#batman,
+#adiyaman,
+#siirt,
+#mardin,
+#kilis,
+#sirnak{
+  fill:#CD853F ;
+}
+#agri,
+#ardahan,
+#bitlis,
+#bingol,
+#elazig,
+#erzincan,
+#erzurum,
+#hakkari,
+#igdir,
+#kars,
+#malatya,
+#mus,
+#tunceli,
+#van
+{
+  fill:#BC8F8F ;
+}
+#karabuk,
+#duzce,
+#amasya,
+#artvin,
+#bartin,
+#bayburt,
+#bolu,
+#gumushane,
+#samsun,
+#trabzon,
+#sinop,
+#zonguldak,
+#tokat,
+#rize,
+#ordu,
+#corum,
+#kastamonu,
+#giresun{
+  fill: #9ACD32;
+}
+#istanbul,
+#edirne,
+#kirklareli,
+#tekirdag,
+#canakkale,
+#kocaeli,
+#yalova,
+#sakarya,
+#bilecik,
+#bursa,
+#balikesir{
+  fill: #DDA0DD;
+}
+#izmir,
+#manisa,
+#aydin,
+#denizli,
+#mugla,
+#afyonkarahisar,
+#kutahya,
+#usak{
+  fill: #FFC0CB;
+}
+#adana,
+#antalya,
+#burdur,
+#hatay,
+#kahramanmaras,
+#isparta,
+#mersin,
+#osmaniye{
+  fill: #E9967A;
+}
+#ankara,
+#konya,
+#kayseri,
+#eskisehir,
+#sivas,
+#kirikkale,
+#aksaray,
+#karaman,
+#kirsehir,
+#nigde,
+#nevsehir,
+#yozgat,
+#cankiri{
+  fill: #DEB887;
+}
+.turkiye-haritasi {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.turkiye-haritasi svg {
+  width: 100%;
+  height: auto;
+}
+.il-isimleri {
+  position: absolute;
+  z-index: 3;
+}
+.il-isimleri div {
+  display: inline-block;
+  background: black;
+  color: #fff;
+  padding: 10px 14px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+#turkiye-haritasi path {
+  cursor: pointer;
+}
+#turkiye-haritasi path:hover {
+  fill: #0b7019;
+}
